@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* here is my logo style */
+
+.logo img {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 95px;
+    border-radius: 50%;
+}
+
+.logo img {
+    overflow: hidden;
+}
+
+
+.menu-bar {
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0c012f;
+    height: 110vh;
+    /* width: 20%; */
+    width: 80px;
+    padding: 0 20px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+
+
+.menu-bar:hover{
+    width: 20%;
+    transition: all 0.8s;
+
+}
+
+
+body {
+    display: flex;
+    /* background-image: url(./Images/white-abstract-wallpaper_23-2148817747.jpg); */
+}
+
+
+ul li {
+    padding: 18px;
+   margin: 8px 0;
+}
+
+
+
+ul li a {
+    color: #fff;
+}
+
+ul a {
+    display: flex;
+    gap: 10px;
+    
+}
+
+/* note that gap only work when you are using a flex display */
+
+ul i {
+    font-size: 20px;
+}
+
+li.sign-out {
+    /* position: absolute;
+    bottom: 0; */
+    background-color: rgb(180, 14, 14);
+    /* width: 100%; */
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+
+ul {
+    height: 80vh;
+    position: relative;
+    width: 70%;
+}
+
+ul li:hover {
+    background-color: red;
+    border-radius: 12px;
+    
+}
+
+ul a span {
+    overflow: hidden;
+}
+
+.content-main {
+    background-image: url(./Images/white-abstract-wallpaper_23-2148817747.jpg);
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* header style for css start here, header includes profile, searchbar and welcome note */
+
+.profile-img img{
+    width: 55px;
+    border-radius: 50px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 20px;
+    align-items: center;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px lightgray;
+}
+
+
+.header-title h1{
+    color: #0c012f;
+    font-size: 20px;
+
+}
+
+
+/* note that for you to use padding or margin, you have to convert to block element */
+
+
+.header-title span{
+    color: #0c012f;
+    font-size: 15px;
+    letter-spacing: 4px;
+    display: block;
+    padding-bottom: 15px;
+
+}
+
+/* profile nav search start here */
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.search-box input {
+    padding: 8px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+
+.search-box {
+    position: relative;
+}
+
+.search-box button {
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #0c012f;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+    
+}
+
+.search-box button:hover {
+   transform: scale(1.1);
+    
+}
+
+
+/* my card design start from here  */
+
+.card-container {
+    background-color: #fff;
+    margin-top: 10px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 20px;
+    border-radius: 10px;
+    border-bottom: lightgray solid 3px;
+
+}
+
+.card-container h1 {
+    color: #0c012f;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.card-flex {
+    display: flex;
+    gap: 3rem;
+}
+
+.card-student {
+    background: rgb(160, 149, 160);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 23.5%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px 1px #443f3f33;
+    cursor: pointer;
+}
+
+.card-student:hover{
+    transform: translate(-5px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.passcode-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* here is for my card icons */
+
+.icon-lock {
+    font-size: 20px;
+    background-color: #0c012f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon-group {
+    font-size: 20px;
+    background-color: #501ff3;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.icon-user {
+    font-size: 20px;
+    background-color: rgb(231, 119, 119);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.icon-cap {
+    font-size: 20px;
+    background-color: #271761;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.card-flex >.card-student:nth-child(1){
+    background-color: rgb(151, 151, 119);
+}
+
+
+.card-flex >.card-student:nth-child(2){
+    background-color: rgb(254, 226, 254);
+}
+
+
+.card-flex >.card-student:nth-child(3){
+    background-color: lightblue;
+}
+
+
+.card-flex >.card-student:nth-child(4){
+    background-color: rgb(185, 139, 185);
+}
+
+
+
+
+/* assignment container start here */
+
+.assignment-container {
+    background-color: #f7eeee;
+    margin-top: 10px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 20px;
+    border-radius: 10px;
+    border-bottom: lightgrey solid 3px;
+
+
+}
+
+.assignment-container h1 {
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.top-img img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.assignment-flex {
+    display: flex;
+}
+
+.assignment-subject {
+    
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 3px 10px 0 wheat;
+    height: 70px;
+    align-items: center;
+    border-radius: 10px;
+    border-left: 3px solid #0c012f;
+    background-color: whitesmoke;
+    
+}
+
+.courses h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: #0c012f;
+    font-weight: bold;
+
+}
+
+.topic {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn-btn{
+    background-color: #bebbc7;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #0c012f;
+}
+
+
+
+.top-performer {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 3px 10px 0 wheat;
+    align-items: center;
+    border-radius: 10px;
+    border-right: #0c012f solid 3px;
+    background-color: rgb(212, 200, 200);
+    margin-left: 3px;
+
+}
+
+
+
+
+/* here is the start for my progress report */
+
+.progress-flex {
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+.progress {
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 31%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px 1px #443f3f33;
+    cursor: pointer;
+    
+}
+
+
+.progress-container {
+    background-color: rgb(255, 239, 242);
+    margin-top: 10px;
+    width: 62%;
+    /* margin-left: auto; */
+    margin-left: 21px;
+    margin-right: auto;
+    padding: 25px 20px;
+    border-radius: 10px;
+    border-bottom: lightgray solid 3px;
+
+}
+
+.progress-container h1 {
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.progress h3 {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+
+span.report {
+ padding-left: 150px;
+ /* padding-bottom: 50px; */
+ position: relative;
+ top: -50px;
+    
+
+}
+
+span.report i {
+   font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+/* this is for my upcoming classes */
+
+.class-container {
+    background-color: rgb(236, 234, 234);
+    margin-top: 10px;
+    width: 27.3%;
+    margin-left: auto;
+    margin-right: 21px;
+    /* margin-right: auto; */
+    padding: 25px 20px;
+    border-radius: 10px;
+    border-bottom: lightgray solid 3px;
+    margin-top: -230px;
+
+}
+
+
+.class-flex {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.design {
+    background: rgb(252, 246, 252);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 95%;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px 1px #443f3f33;
+    cursor: pointer;
+   
+    
+}
+
+.class-container h1 {
+    font-size: 18px;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.see-classes {
+    
+    position: absolute;
+    right: 80px;
+    margin-top: -40px;
+    font-size: 16px;
+    color: rgb(49, 48, 48);
+    cursor: pointer;
+}
+
+span img {
+    width: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+span.name{
+  margin: 10px;
+  position: relative;
+  top: -10px;
+  color: rgb(49, 48, 48);
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+span.number {
+    position: absolute;
+    right: 60px;
+    font-size: 16px;
+    color: rgb(49, 48, 48);
+}
+
+
+
+
+
+
+
+
+/* this is for my course here  */
+
+.course-container {
+    background-color: rgb(182, 167, 197);
+    margin-top: 10px;
+    width: 62%;
+    /* margin-left: auto; */
+    margin-left: 21px;
+    margin-right: auto;
+    padding: 25px 20px;
+    border-radius: 10px;
+    border-bottom: lightgray solid 3px;
+    margin-top: -210px;
+
+}
+
+.see-all {
+    
+    position: absolute;
+    right: 430px;
+    margin-top: -40px;
+    font-size: 16px;
+    color: rgb(49, 48, 48);
+}
+
+.course-flex {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.course-container h1 {
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.course {
+    background-color: white;
+    margin-left: -15px;
+    width: 31%;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: column;
+    width: 95%;
+    height: 250px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px 1px #443f3f33;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+span.design-img img {
+    width: 35%;
+    margin: 35px 69px;
+    border-radius: 3px;
+
+
+ 
+}
+
+.ui-image1 {
+    background-color: rgb(165, 88, 241);
+    height: 18vh;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.ui-image2 {
+    background-color: darkgoldenrod;
+    height: 18vh;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+.ui-image3{
+    background-color: crimson;
+    height: 18vh;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.course h2{
+    margin: 10px 2px;
+    font-size: 15px;
+
+}
+
+.continue {
+    margin-top: 20px;
+}
+
+
+.continue h3{
+   
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid;
+    width: 87%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.continue h3:hover{
+background-color: #501ff3;
+}
+

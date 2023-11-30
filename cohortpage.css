@@ -1,0 +1,78 @@
+.container{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    background-color:  whitesmoke
+}
+
+
+/* search button styling starts here */
+
+.search-items {
+    padding: 20px 20px;
+    background-color: #fff;
+   
+}
+
+.newest{
+    display: flex;
+    position: absolute;
+    right: 200px;
+    top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+}
+
+
+.span{
+    color: white;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* here is my table, td th styling */
+table, td, th {
+    border-bottom: 1px solid;
+    border-color: #999;
+   border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td, th {
+    padding: 25px;
+    color: cornflowerblue;
+}
+
+
+th {
+    background-color:lightblue;
+    color: white;
+}
+
+tr:hover {
+    background-color: wheat;
+}
+
+select {
+    background-color: lightblue;
+    border: none;
+  
+}
+
+

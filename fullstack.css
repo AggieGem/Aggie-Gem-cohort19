@@ -1,0 +1,421 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+  
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+
+
+}
+
+
+/* My header design starts here */
+
+
+.content{
+    display: flex;
+    margin: 5px;
+   justify-content: center;
+}
+
+
+.content-main{
+    position: relative;
+    width: 70%;
+    margin-left: 0px;
+}
+
+.content-sub{
+    width: 30%;
+    background-color: white;
+    margin-left: 20px;
+}
+
+
+.content-sub{
+    width: 30%;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    width: 95%;
+    margin-left: 15px;
+
+}
+
+.header-text{
+    width: 70%;
+
+}
+
+.header-text h2{
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+  
+}
+
+.header-icon{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 15%;
+ 
+}
+
+.h-icon i{
+    position: relative;
+    align-items: center;
+    font-size:20px;
+    /* margin-right: 10px; */
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: grey;
+
+}
+
+
+.main-grade{
+   display: flex;
+   margin-top: 5px;
+   padding-left: 10px;
+   width: 50%;
+
+}
+
+
+.info p{
+    font-size: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+    
+}
+
+
+.info p i{
+    color: rgb(243, 243, 9);
+    font-weight: bolder;
+       
+}
+
+.landing img{
+    width: 95%;
+    height: 63vh;
+    margin-left: 15px; 
+    margin-left: 15px;
+    border-radius: 20px;
+
+}
+
+
+/* Designs for Content-Sub starts here */
+
+.sub-outline{
+   
+    background-color: rgb(243, 241, 241);
+    width: 83%;
+    border-radius: 10px;
+    margin-top: 30px;
+   
+}
+
+.sub-head{
+    display: flex;
+    align-items: center;
+    gap: 290px;
+}
+
+
+.sub-icon i{
+    font-size: 30px; 
+}
+
+.sub-header h4{
+    font-size: 25px;
+    width: 60%;
+    padding-left: 15px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+
+progress{
+    width: 90%;
+    margin-left: 15px;
+    padding: 15px 0px;
+   
+}
+
+
+.sub-text p{
+    padding-left: 15px;
+    
+} 
+
+
+.port {
+   
+    background-color: orange;
+    font-size: 15px;
+    align-items: center;
+
+} 
+
+
+.sub-vidz{
+    height: 60vh;
+    width: 93%;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} 
+
+.sub-bar{
+    display: flex;
+    gap: 180px;
+    align-items: center;
+    font-size: 17px;
+}
+
+.vid-coz{
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.vidz-coxz{
+   
+    width: 65%;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.vidz-grade{
+    
+    width: 15%;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+
+.vidz-icon{
+    position: relative;
+    top: 12px;
+    background-color: rgb(4, 235, 127);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+}
+
+.vidz-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.vidz-lks{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    gap: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 7vh; 
+    border-radius: 10px;  
+   
+}
+
+.vidz-lks i{
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+  
+}
+
+
+
+.vidz-lks a{
+ 
+    padding-right: 30px;
+    display: block;
+    /* background-color: pink; */
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.vidz-lks a span:nth-last-child(2){
+    color: black;
+    padding-left: 20px;
+    padding-right: 170px; 
+}
+
+
+
+.vidz-lks a span:nth-last-child(1){
+    color: black;
+    
+}
+
+
+.pro{
+    background-color: rgb(243, 241, 241);
+}
+
+
+
+.pro:hover{
+    background-color:rgb(4, 235, 127) ;
+
+
+}
+
+
+
+/* My Link designs starts here */
+.links{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.about:hover{
+    background-color: rgb(4, 235, 127);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reviews:hover{
+    background-color: rgb(4, 235, 127);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.discuss:hover{
+    background-color: rgb(4, 235, 127);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.progress2{
+    width: 17%;
+    padding: 5px;
+   
+}
+
+
+/* 
+My footer designs start here */
+.footer{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.narration{
+    width: 65%;
+    margin-left: 0px;
+    margin-right: 75px;
+    font-size: 20px;
+   
+}
+
+.audio-module{
+    width: 25%;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+
+.audios{
+    background-color:rgb(250, 211, 211);
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.module{
+    background-color:rgb(159, 159, 206);
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 10px;
+
+}
+
+
+/* Codes for flexing audio & Module file part of my footer */
+.audio-file{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.module-file{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+
+.text{
+    padding-left: 15px;
+    padding-right: 280px;
+
+   
+
+}
+
+.grade{
+   margin-right: 10px;
+    /* padding-right: 9px; */
+
+}
+
+.icon{
+   
+   padding: 5px 10px;
+
+  
+   background-color: rgb(191, 248, 240);
+   border-radius: 50%;
+  
+
+
+}
+    
+
+
+
+
+
+
+
+
+ 
+

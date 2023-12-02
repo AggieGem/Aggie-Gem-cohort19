@@ -1,0 +1,185 @@
+*{
+
+    list-style-type: none;
+}
+
+.container{
+
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mycase{
+
+    
+    width: 55%;
+    background-color: aliceblue;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+
+
+}
+
+
+.my-inbox{
+
+    
+    width: 38%;
+    background-color: aliceblue;
+    height: 45px;
+    margin-top: 25px;
+    padding: 9px;
+    border-radius: 5px;
+    margin-right: 20px;
+    align-items: center;
+
+
+}
+.case-sub{
+
+    display: flex;
+    align-items: center;
+
+}
+.see-all{
+
+    margin-left: 73%;
+    
+    
+
+}
+.view-all{
+
+margin-left: 50%;
+}
+input[type=button]{
+
+    font-size: 17px;
+    border-radius: 2px;
+    border: 2px lightgray solid;
+}
+
+input[type=button]:focus{
+
+    font-size: 10px;
+    outline: none;
+    
+}
+
+/* This is the end of my header */
+
+
+
+
+.Account{
+
+    display: flex;
+    width: 98%;
+    background-color: aliceblue;
+    height: 45px;
+    margin-top: 2px;
+    margin-right: 10px;
+    padding: 13px;
+    border-radius: 5px;
+    justify-content: space-between;
+
+
+
+
+
+
+
+}
+
+ul a{
+
+    
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px lightgray solid;
+    color: white;
+    padding: 3px;
+
+}
+.new a{
+
+    padding: 3px 13px; 
+    background-color: orangered;
+    
+}
+.active a{
+    background-color: green; 
+    padding: 3px 9px; 
+    
+
+
+}
+.active{
+
+    margin-left: 25px;
+}
+.type{
+
+    margin-left: 80px;
+}
+.status{
+    margin-left: 80px;
+}
+.priority{
+    margin-left: 46px;
+}
+.link a{
+
+    color: black;
+}
+
+/* Total inbox starts here */
+
+.Howard img{
+
+    width: 60px;
+    border-radius: 50%;
+ 
+}
+
+.Total-inbox{
+
+    padding-top: 15px;
+    
+    
+}
+
+.Howa{
+
+    display: flex;
+    /* width: 98%; */
+    background-color: aliceblue;
+    height: 69px;
+    
+    margin-right: 10px;
+    padding: 14px 50px;
+    border-radius: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+    border: 2px lightgray solid;
+    margin-top: -13px;
+
+  
+}
+
+   
+   
+
+

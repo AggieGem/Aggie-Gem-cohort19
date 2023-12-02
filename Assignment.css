@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+body{
+    width: 90%;
+    /* background-color: aqua; */
+    
+}
+
+.myheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(20, 19, 19);
+}
+
+.myheader span{
+    padding: 5px 15px;
+}
+
+
+
+        
+  
+.components{
+  
+
+   display: flex;
+   justify-content: space-between;
+   background: white;
+   padding:5px 20px; 
+   align-items: center;
+   width: 95%;
+   margin-left: auto;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-top: 10px;
+   border-radius: 10px;
+   box-shadow:-5px 3px rgb(233, 231, 241);
+}
+
+.components3{
+  
+
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding:10px 20px; 
+    align-items: center; 
+    width: 95%;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow:-5px 3px  rgb(241, 218, 157);
+ }
+
+
+ .content{
+
+    display: block;
+   padding-bottom: 10px; 
+   width: 30%;
+}
+.content span{
+    font-size: 20px;
+    color: rgb(20, 19, 19);
+     font-size: 20px;
+    display: block;
+    padding-bottom: 5px;}
+
+    .content h1{
+        color: rgb(20, 19, 19);
+        font-size: 25px;
+        
+        }
+
+
+        
+    .submit span{
+       
+        padding: 11px;  
+        border-radius: 8px;
+         background-color: rgb(238, 197, 233); 
+        color: blueviolet;
+    }
+
+.upcoming span{
+    background-color: rgb(245, 176, 112);
+    padding: 11px;
+    border-radius: 8px;
+    color: brown;
+
+}
+
+
+
+
+
+
+/*  
+ my media responsiveness style starts here  */
+@media(max-width:1180){
+
+    body{width: 50%;
+    }
+    
+
+.myheader span{
+    padding: 3px 8px;
+}
+.content span{
+    font-size: 20px;
+    color: rgb(20, 19, 19);
+     font-size: 20px;
+    display: block;
+    padding-bottom: 5px;}
+
+.content h1{
+    color: rgb(20, 19, 19);
+    font-size: 25px;
+         }
+        
+
+.components{
+   display: flex;
+   justify-content: space-between;
+   background: white;
+   padding:3px 10px; 
+   align-items: center;
+   width: 50%;
+   margin-left: auto;
+   margin-bottom: 10px;
+   margin-right: auto;
+   margin-top: 5px;
+   border-radius: 5px;
+   box-shadow:-5px 10px rgb(233, 231, 241);
+}
+
+.components3{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding:3px 10px; 
+    align-items: center; 
+    width: 50%;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow:-5px 10px  rgb(241, 218, 157);
+ }
+.content{
+
+     display: block;
+    padding-bottom: 10px; 
+    width: 10%;
+}
+
+
+    .submit span{
+       
+        padding: 4px;  
+        border-radius: 5px;
+         background-color: rgb(238, 197, 233); 
+        color: blueviolet;
+    }
+
+.upcoming span{
+    background-color: rgb(245, 176, 112);
+    padding: 4px;
+    border-radius: 5px;
+    color: brown;
+
+} 
+
+}

@@ -1,0 +1,74 @@
+table{
+
+    width: 70%;
+    background-color: ghostwhite;
+    margin: auto;
+    text-align: center;
+    height: 90vh;
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+
+
+ table, td, th{
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    border-color: ghostwhite;
+    
+
+} 
+
+
+td, th{
+
+    padding: 10px;
+}
+
+
+
+th{
+
+
+    background-color: blue;
+    color: aliceblue;
+}
+
+tr:nth-child(even){
+
+    background-color: gainsboro;
+
+}
+
+tr:hover{
+
+    background-color: azure;
+
+}
+
+caption{
+
+    padding: 15px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+
+.sub {
+
+    position: absolute;
+    top: 100%; 
+    left: 70%;
+    font-size: 23px;
+    display: flex;
+    background-color: blue;
+    color: beige;
+    width: 15%;
+    margin-bottom: 10px;
+    
+}
+
+.orange{
+
+    background-color: orange;
+}

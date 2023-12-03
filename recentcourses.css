@@ -1,0 +1,205 @@
+
+body{
+    background-color: whitesmoke;
+    border-radius: 10px;
+  
+    display: flex;
+    column-gap: 20px;
+  }
+  
+    .header{
+      width: 60%;
+      margin-left:8px;
+      margin-bottom: 30px;
+      margin-top: 8px;
+  
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  
+  
+    .sidebar{
+      background-color: lightgrey;
+      border-radius: 20px;
+      margin-top: 8px;
+      padding: 25px 20px;
+      width: 37%;
+      white-space: nowrap;
+    }
+  
+  
+  
+  .enroll1{
+    background-color: dodgerblue;
+    padding: 10px 15px;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+  
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .enroll2{
+    background-color: dodgerblue;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  
+  
+  /* iI have my css properties for images */
+   /* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  } */
+  
+  
+  .sideimg1 img{
+    font-size: 20px;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 55%;
+    border: 2px solid whitesmoke; 
+  }
+  
+  .sideimg2 img{
+    font-size: 20px;
+    max-width: 100px;
+    height: 80px;
+    border-radius: 55%;
+    border: 2px solid whitesmoke; 
+  }
+  
+  .sideimg3 img{
+    font-size: 20px;
+    max-width: 100px;
+    height: 80px;
+    border-radius: 55%;
+    border: 2px solid whitesmoke; 
+  }
+  
+  
+  
+  .image img{
+    font-size: 20px;
+    max-width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    /* border: 2px solid whitesmoke; */
+  }
+  
+  .image1 img{
+    font-size: 20px;
+    max-width: 100px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  
+  /* images css ends here */
+  
+  .mainbar{
+      background-color: lightgrey;
+      border-radius: 20px;
+      /* padding: 15px; */
+      
+      margin-left:8px;
+      margin-bottom: 20px;
+  
+      flex: 1;
+    }
+  
+  
+    ul{
+      background-color: lightgrey;
+      flex: 1;
+      display: flex;
+      column-gap: 10px;
+      padding: 25px 10px;
+      justify-content: space-around;
+      border-radius: 20px;
+      align-items: center;
+    }
+  
+    ul li{
+      list-style-type: none;
+      font-size: 25px;
+      text-transform: capitalize;
+    }
+  
+  
+    td, th{
+      padding: 35px;
+      border-collapse: collapse;
+  }
+  
+  tr td .one{
+    border-radius: 20px;
+    border: 2px solid darkslateblue;
+    padding: 5px 12px;
+    color: darkslateblue;
+  }
+  
+  
+  
+  
+    table{
+      /* width: 60%; */
+      font-size: 25px;
+      padding: 40px 30px;
+      border-radius: 10px;
+  }
+  
+  
+  
+  tr:nth-child(even){
+      background-color:lightgrey;
+  }
+  
+  
+  tr:hover{
+      background-color: darkgrey;
+  }
+  
+  
+  tr td .two{
+    border-radius: 20px;
+    border: 2px solid rgb(249, 180, 53);
+    padding: 10px 14px;
+    color: rgb(249, 180, 53);
+  }
+  
+  
+  tr td .three{
+    border-radius: 20px;
+    border: 2px solid rgb(250, 111, 250);;
+    padding: 5px 12px;
+    color: rgb(250, 111, 250);
+  }
+  
+  
+  .texts{
+    font-size: 15px;
+  }
+  
+  .text{
+    font-size: 15px;
+  }
+  
+  
+  
+  .fig{
+    font-size: 18px;
+  
+  } 
+  
+  .fa-star{
+    font-size: 15px;
+    color: yellow;
+  }
+  
+  .space{
+    font-size: 15px;
+  }
